@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<!--
+Template Name: Materialize - Material Design Admin Template
+Author: PixInvent
+Website: http://www.pixinvent.com/
+Contact: hello@pixinvent.com
+Follow: www.twitter.com/pixinvents
+Like: www.facebook.com/pixinvents
+Purchase: https://themeforest.net/item/materialize-material-design-admin-template/11446068?ref=pixinvent
+Renew Support: https://themeforest.net/item/materialize-material-design-admin-template/11446068?ref=pixinvent
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+
+-->
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description"
+        content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google.">
+    <meta name="keywords"
+        content="materialize, admin template, dashboard template, flat admin template, responsive admin template, eCommerce dashboard, analytic dashboard">
+    <meta name="author" content="ThemeSelect">
+    <title>eCommerce Products Page | Materialize - Material Design Admin Template</title>
+    <link rel="apple-touch-icon" href="../../../app-assets/images/favicon/apple-touch-icon-152x152.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/favicon/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- BEGIN: VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/noUiSlider/nouislider.min.css">
+    <!-- END: VENDOR CSS-->
+    <!-- BEGIN: Page Level CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/horizontal-menu-template/style.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/layouts/style-horizontal.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/eCommerce-products-page.css">
+    <!-- END: Page Level CSS-->
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- END: Custom CSS-->
+</head>
+<header>
+    <nav class="white">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo"><img class="responsive-img" src="Images/mb-logo.png" width="200"
+                    height="40"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="Monpanier.html" class="grey-text">Panier<i class="material-icons left"
+                            class="grey-text">local_grocery_store</i></a></li>
+                <li><a href="Moncompte.html" class="grey-text">Mon compte<i class="material-icons left"
+                            class="grey-text">people</i></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- END: Head-->
+
+<div class="section"></div>
+<main>
+    <center>
+        <div class="section"></div>
+
+        <h2 style="color: chocolate">Mes informations</h2>
+        <div class="section"></div>
+
+
+
+        <div class="container">
+
+
+            <div class="z-depth-1 grey lighten-4 row" style="padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+
+                <form class="row" method="post">
+                    <div class='row'>
+                        <div class='col s12'>
+                            <div class="col s12 m12 l3">
+                                <img class="circle responsive-img" src="Images/femme_sourire.jpg" width="200"
+                                    height="200">
+                            </div>
+
+                            <div class='input-field col s1'>
+                                <label>Nom : </label>
+                            </div>
+                            <div class='input-field col s3'>
+                                <input disabled class='validate' type='text' name='nom' id='nom' value="Garnier" />
+
+                            </div>
+                            <div class='input-field col s1'>
+                                <label>Prénom : </label>
+                            </div>
+                            <div class='input-field col s4'>
+                                <input disabled class='validate' type='text' name='prenom' id='prenom' value="Leslie" />
+
+                            </div>
+                            <div class='input-field col s1'>
+                                <label>Email : </label>
+                            </div>
+                            <div class='input-field col s8'>
+                                <input disabled class='validate' type='email' name='email' id='email'
+                                    value="leslie.garnier@gmail.com" />
+                            </div>
+                            <div class='input-field col s1'>
+                                <label>Adresse : </label>
+                            </div>
+                            <div class='input-field col s1'>
+                                <input disabled class='validate' type='number' name='number' id='number' value="6" />
+                            </div>
+                            <div class='input-field col s7'>
+                                <input disabled class='validate' type='text' name='adresse' id='adresse'
+                                    value="Avenue de westphalie" />
+
+                            </div>
+                            <div class='input-field col s6'>
+                                <a class="waves-effect waves-light btn modal-trigger" style="background-color: #cf6818"
+                                    href="#modal2">Ajouter une Carte Bancaire</a>
+                            </div>
+                            <div class='input-field col s6'>
+                                <a class="waves-effect waves-light btn modal-trigger" style="background-color: #cf6818"
+                                    href="#modal1">Modifier mes
+                                    informations</a>
+                            </div>
+                            <!-- Modal Structure -->
+                            <div id="modal1" class="modal">
+                                <div class="modal-content grey lighten-2">
+                                    <form class="row" method="post">
+                                        <div class='row'>
+                                            <div class='col s12'>
+                                                <div class="col s12 m12 l3">
+                                                    <img class="circle responsive-img" src="Images/femme_sourire.jpg"
+                                                        width="200" height="200">
+                                                </div>
+
+                                                <div class='input-field col s1'>
+                                                    <label>Nom : </label>
+                                                </div>
+                                                <div class='input-field col s3'>
+                                                    <input class='validate' type='text' name='nom' id='nom'
+                                                        value="Garnier" />
+
+                                                </div>
+                                                <div class='input-field col s1'>
+                                                    <label>Prénom : </label>
+                                                </div>
+                                                <div class='input-field col s4'>
+                                                    <input class='validate' type='text' name='prenom' id='prenom'
+                                                        value="Leslie" />
+
+                                                </div>
+                                                <div class='input-field col s1'>
+                                                    <label>Email : </label>
+                                                </div>
+                                                <div class='input-field col s8'>
+                                                    <input class='validate' type='email' name='email' id='email'
+                                                        value="leslie.garnier@gmail.com" />
+                                                </div>
+                                                <div class='input-field col s1'>
+                                                    <label>Adresse : </label>
+                                                </div>
+                                                <div class='input-field col s1'>
+                                                    <input class='validate' type='number' name='number' id='number'
+                                                        value="6" />
+                                                </div>
+                                                <div class='input-field col s7'>
+                                                    <input class='validate' type='text' name='adresse' id='adresse'
+                                                        value="Avenue de westphalie" />
+                                                </div>
+
+                                                <div class="file-field input-field col s12">
+                                                    <div class="btn" style="background-color: #cf6818">
+                                                        <span>Image</span>
+                                                        <input type="file">
+                                                    </div>
+                                                    <div class="file-path-wrapper">
+                                                        <input class="file-path validate" type="text">
+                                                    </div>
+                                                </div>
+
+                                                <div class='input-field col s12'>
+                                                    <a class="waves-effect waves-light btn modal-trigger" style="background-color: #cf6818"
+                                                        href="#modal1">Modifier mes
+                                                        informations</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div id="modal2" class="modal">
+                                <div class="modal-content grey lighten-2">
+                                    <form class="row" method="post">
+                                        <div class='row'>
+                                            <div class='col s12'>
+
+                                                <div class='input-field  col s3'>
+                                                    <label>Code : </label>
+                                                </div>
+                                                <div class='input-field col s9'>
+                                                    <input class='validate' type='text' name='code' id='code'
+                                                        value="2145214523652365" />
+                                                </div>
+                                                <div class='input-field  col s3'>
+                                                    <label>Date : </label>
+                                                </div>
+                                                <div class='input-field col s9'>
+                                                    <input class='validate' type='datetime' name='date' id='date'
+                                                        value="11/23" />
+                                                </div>
+                                                <div class='input-field  col s3'>
+                                                    <label>Cryptogramme : </label>
+                                                </div>
+                                                <div class='input-field col s9'>
+                                                    <input class='validate' type='password' name='password'
+                                                        id='password' value="752" />
+                                                </div>
+                                                <a class="waves-effect waves-light btn" style="background-color: #cf6818">Ajouter une
+                                                    Carte Bancaire</a>
+
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div id="modal3" class="modal">
+                                <div class="modal-content grey lighten-2">
+                                    <form class="row" method="post">
+                                        <div class='row'>
+                                            <div class='col s12'>
+
+                                                <div class='input-field  col s3'>
+                                                    <label>Code : </label>
+                                                </div>
+                                                <div class='input-field col s9'>
+                                                    <input class='validate' type='text' name='code' id='code'
+                                                        value="2145214523652365" />
+                                                </div>
+                                                <div class='input-field  col s3'>
+                                                    <label>Date : </label>
+                                                </div>
+                                                <div class='input-field col s9'>
+                                                    <input class='validate' type='datetime' name='date' id='date'
+                                                        value="11/23" />
+                                                </div>
+                                                <div class='input-field  col s3'>
+                                                    <label>Cryptogramme : </label>
+                                                </div>
+                                                <div class='input-field col s9'>
+                                                    <input class='validate' type='password' name='password'
+                                                        id='password' value="752" />
+                                                </div>
+                                                <a class="waves-effect waves-light btn" style="background-color: #cf6818">Modifier la carte bancaire</a>
+
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </form>
+
+                <div class="col s12 m4" style="margin-top: 5ch">
+                    <div class="card">
+                        <div class="card-content Black-text">
+                            <span class="card-title">Carte n°1</span>
+                            <img class="responsive-img" src="Images/carte-mastercard-ing-direct.png">
+                        </div>
+                        <div class='row'>
+                            <div class='col s12'>
+
+                                <div class='input-field  col s3'>
+                                    <label>Code : </label>
+                                </div>
+                                <div class='input-field col s9'>
+                                    <input disabled class='validate' type='text' name='code' id='code'
+                                        value="2145214523652365" />
+                                </div>
+                                <div class='input-field  col s3'>
+                                    <label>Date : </label>
+                                </div>
+                                <div class='input-field col s9'>
+                                    <input disabled class='validate' type='datetime' name='date' id='date'
+                                        value="11/23" />
+                                </div>
+                                <div class='input-field  col s4'>
+                                    <label>Cryptogramme : </label>
+                                </div>
+                                <div class='input-field col s8'>
+                                    <input disabled class='validate' type='password' name='password' id='password'
+                                        value="752" />
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card-action">
+                            <a class="waves-effect waves-light btn modal-trigger" href="#modal3"
+                                style="background-color: #cf6818">Modifier</a>
+                            <a class="waves-effect waves-light btn" style="background-color: #622e06">Supprimer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        </div>
+        </div>
+        </div>
+
+        <!-- BEGIN: Footer-->
+
+        <footer class="page-footer teal" style="background-color: chocolate !important">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Biographie des créateurs</h5>
+                        <p class="grey-text text-lighten-4">Nous sommes une équipe d'étudiants travaillant
+                            sur ce projet
+                            pour l'épreuve technique de premiere année de master</p>
+
+
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Settings</h5>
+                        <ul>
+                            <li><a class="white-text" href="#!">Link 1</a></li>
+                            <li><a class="white-text" href="#!">Link 2</a></li>
+                            <li><a class="white-text" href="#!">Link 3</a></li>
+                            <li><a class="white-text" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l3 s12">
+                        <h5 class="white-text">Connect</h5>
+                        <ul>
+                            <li><a class="white-text" href="#!">Link 1</a></li>
+                            <li><a class="white-text" href="#!">Link 2</a></li>
+                            <li><a class="white-text" href="#!">Link 3</a></li>
+                            <li><a class="white-text" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    Créer par <a class="brown-text text-lighten-3">Jérôme, Romain et Clément</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- END: Footer-->
+</main>
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+        $('.modal').modal();
+    });
+</script>
+
+</html>

@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<!--
+Template Name: Materialize - Material Design Admin Template
+Author: PixInvent
+Website: http://www.pixinvent.com/
+Contact: hello@pixinvent.com
+Follow: www.twitter.com/pixinvents
+Like: www.facebook.com/pixinvents
+Purchase: https://themeforest.net/item/materialize-material-design-admin-template/11446068?ref=pixinvent
+Renew Support: https://themeforest.net/item/materialize-material-design-admin-template/11446068?ref=pixinvent
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+
+-->
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description"
+        content="Materialize is a Material Design Admin Template,It's modern, responsive and based on Material Design by Google.">
+    <meta name="keywords"
+        content="materialize, admin template, dashboard template, flat admin template, responsive admin template, eCommerce dashboard, analytic dashboard">
+    <meta name="author" content="ThemeSelect">
+    <title>eCommerce Products Page | Materialize - Material Design Admin Template</title>
+    <link rel="apple-touch-icon" href="../../../app-assets/images/favicon/apple-touch-icon-152x152.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/favicon/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- BEGIN: VENDOR CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/noUiSlider/nouislider.min.css">
+    <!-- END: VENDOR CSS-->
+    <!-- BEGIN: Page Level CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/horizontal-menu-template/style.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/layouts/style-horizontal.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/eCommerce-products-page.css">
+    <!-- END: Page Level CSS-->
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- END: Custom CSS-->
+</head>
+<nav style="background-color : white">
+    <div class="nav-wrapper">
+        <a href="Index.html" class="brand-logo"><img class="responsive-img" src="../Images/mb-logo.png" width="200"
+                height="40"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="Monpanier.html" style="color: grey">Panier<i class="material-icons left"
+                        style="color: grey">local_grocery_store</i></a></li>
+            <li><a href="Connexion.html" style="color: grey">Mon compte<i class="material-icons left"
+                        style="color: grey">people</i></a></li>
+        </ul>
+    </div>
+</nav>
+</head>
+
+<body>
+
+    <div class="section"></div>
+    <main>
+        <center>
+            <div class="section"></div>
+
+            <h2 style="color: #3fbdad">Administration</h2>
+            <div class="section"></div>
+
+
+
+            <div class="container">
+
+
+                <div class="z-depth-1 grey lighten-4 row" style="padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+                    <div class="row">
+                        <div class="card col s6">
+                            <h4 class="center-align">Statistique</h4>
+                            <hr class="col s12">
+                        </div>
+                        <div class="card col s6">
+                            <h4 class="center-align">Nombre de ventes</h4>
+                            <hr class="col s12">
+
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col s12 m12 l12">
+                            <ul class="collapsible popout categories-collapsible">
+                                <li>
+
+                                    <div class="collapsible-header" tabindex="0">Vendeur <i class="material-icons">
+                                            keyboard_arrow_right </i></div>
+                                    <div class="collapsible-body">
+                                        <div class="row">
+                                            <a class="waves-effect waves-light green darken-1 btn modal-trigger col s12"
+                                                href="#modaladdvendeur">Ajouter
+                                                un vendeur</a>
+                                            <!--modal Add vendeur -->
+                                            <div id="modaladdvendeur" class="modal">
+                                                <div class="modal-content">
+                                                    <form class="col s12">
+                                                        <div class="row">
+                                                            <div class="input-field col s6">
+                                                                <input id="nom_vendeur" type="text" class="validate">
+                                                                <label for="nom_vendeur">Nom vendeur</label>
+                                                            </div>
+                                                            <div class="input-field col s6">
+                                                                <input id="email_vendeur" type="text" class="validate">
+                                                                <label for="email_vendeur">E-mail vendeur</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="input-field col s8">
+                                                                <input id="adresse_vendeur" type="text"
+                                                                    class="validate">
+                                                                <label for="adresse_vendeur">Adresse</label>
+                                                            </div>
+                                                            <div class="input-field col s4">
+                                                                <input id="city_vendeur" type="text" class="validate">
+                                                                <label for="city_vendeur">Ville</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="input-field col s6">
+                                                                <input id="phone_vendeur" type="tel" class="validate">
+                                                                <label for="phone_vendeur">Téléphone</label>
+                                                            </div>
+                                                            <div class="input-field col s6">
+                                                                <input id="site_web" type="text" class="validate">
+                                                                <label for="site_web">Site Web</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="input-field col s12">
+                                                                <input id="Information_vendeur" type="tel"
+                                                                    class="validate">
+                                                                <label for="Information_vendeur">Information
+                                                                    suplémentaire</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <a
+                                                                class="waves-effect waves-light green darken-1 btn  col s12">Ajouter
+                                                                le vendeur</a>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <!---->
+                                        </div>
+                                        <div class="row">
+                                            <div class="input-field col s3">
+                                                <input id="nom_vendeur_modify" type="text" class="autocomplete">
+                                                <label for="nom_vendeur_modify">Nom Vendeur</label>
+                                            </div>
+                                            <div class="input-field col s9"><a
+                                                    class="waves-effect waves-light orange darken-3 btn modal-trigger col s12"
+                                                    href="#modalmodifyvendeur">Modifier
+                                                    un
+                                                    vendeur</a>
+                                            </div>
+
+                                            <!--modal Add vendeur -->
+                                            <div id="modalmodifyvendeur" class="modal">
+                                                <div class="modal-content">
+                                                    <form class="col s12">
+                                                        <div class="row">
+                                                            <div class="input-field col s6">
+                                                                <input id="nom_vendeur" type="text" class="validate">
+                                                                <label for="nom_vendeur">Nom vendeur</label>
+                                                            </div>
+                                                            <div class="input-field col s6">
+                                                                <input id="email_vendeur" type="text" class="validate">
+                                                                <label for="email_vendeur">E-mail vendeur</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="input-field col s8">
+                                                                <input id="adresse_vendeur" type="text"
+                                                                    class="validate">
+                                                                <label for="adresse_vendeur">Adresse</label>
+                                                            </div>
+                                                            <div class="input-field col s4">
+                                                                <input id="city_vendeur" type="text" class="validate">
+                                                                <label for="city_vendeur">Ville</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="input-field col s6">
+                                                                <input id="phone_vendeur" type="tel" class="validate">
+                                                                <label for="phone_vendeur">Téléphone</label>
+                                                            </div>
+                                                            <div class="input-field col s6">
+                                                                <input id="site_web" type="text" class="validate">
+                                                                <label for="site_web">Site Web</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="input-field col s12">
+                                                                <input id="Information_vendeur" type="tel"
+                                                                    class="validate">
+                                                                <label for="Information_vendeur">Information
+                                                                    suplémentaire</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <a
+                                                                class="waves-effect waves-light orange darken-3 btn  col s12">Modifier
+                                                                le vendeur</a>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <!---->
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="input-field col s3">
+                                                <input id="nom_vendeur_delete" type="text" class="autocomplete">
+                                                <label for="nom_vendeur_delete">Nom vendeur</label>
+                                            </div>
+                                            <div class="input-field col s9"><a
+                                                    class="waves-effect waves-light red darken-4 btn col s12">Supprimer
+                                                    un
+                                                    vendeur</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="input-field col s3">
+                                                <input id="nom_vendeur_suspend" type="text" class="autocomplete">
+                                                <label for="nom_vendeur_suspend">Nom vendeur</label>
+                                            </div>
+
+                                            <div class="input-field col s9"><a
+                                                    class="waves-effect waves-light red darken-4 btn col s12">Suspendre
+                                                    un
+                                                    vendeur</a></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="collapsible-header" tabindex="0">Catégorie de
+                                        produits<i class="material-icons">
+                                            keyboard_arrow_right </i></div>
+                                    <div class="collapsible-body">
+                                        <div class="row">
+                                            <form class="col s12">
+                                                <div class="row">
+                                                    <div class="col s12">
+                                                        <div class="row">
+                                                            <div class="input-field col s8">
+                                                                <input id="nom_categorie_add" type="text"
+                                                                    class="validate">
+                                                                <label for="nom_categorie_add">Nom categorie de
+                                                                    produit</label>
+                                                            </div>
+
+                                                            <div class="input-field col s4"><a
+                                                                    class="waves-effect waves-light green darken-1 btn col s12">Ajouter
+                                                                    une
+                                                                    categorie de produits</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <form class="col s12">
+                                                <div class="row">
+                                                    <div class="col s12">
+                                                        <div class="row">
+                                                            <div class="input-field col s4">
+                                                                <input id="nom_categorie_addsouscat" type="text"
+                                                                    class="autocomplete">
+                                                                <label for="nom_categorie_addsouscat">Categorie de
+                                                                    produit</label>
+                                                            </div>
+                                                            <div class="input-field col s4">
+                                                                <input id="nom_categorie_addsouscat" type="text"
+                                                                    class="validate">
+                                                                <label for="nom_categorie_addsouscat">Nom catégorie de
+                                                                    sous
+                                                                    produit</label>
+                                                            </div>
+                                                            <div class="input-field col s4"><a
+                                                                    class="waves-effect waves-light green darken-1 btn col s12">Ajouter
+                                                                    une
+                                                                    categorie de sous produits</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <form class="col s12">
+                                                <div class="row">
+                                                    <div class="col s12">
+                                                        <div class="row">
+                                                            <div class="input-field col s4">
+                                                                <input id="nom_categorie_modifycat" type="text"
+                                                                    class="autocomplete">
+                                                                <label for="nom_categorie_modifycat">Categorie de
+                                                                    produit</label>
+                                                            </div>
+                                                            <div class="input-field col s4">
+                                                                <input id="nom_categorie_modifycatnew" type="text"
+                                                                    class="autocomplete">
+                                                                <label for="nom_categorie_modifycatnew">Nouveau nom
+                                                                    categorie de
+                                                                    produit</label>
+                                                            </div>
+                                                            <div class="input-field col s4"><a
+                                                                    class="waves-effect waves-light orange darken-3 btn col s12">Modifier
+                                                                    une Catégorie de
+                                                                    produits</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <form class="col s12">
+                                                <div class="row">
+                                                    <div class="col s12">
+                                                        <div class="row">
+                                                            <div class="input-field col s4">
+                                                                <input id="nom_categorie_modifysouscat" type="text"
+                                                                    class="autocomplete">
+                                                                <label for="nom_categorie_modifysouscat">Categorie de
+                                                                    sous
+                                                                    produit</label>
+                                                            </div>
+                                                            <div class="input-field col s4">
+                                                                <input id="nom_categorie_modifysouscatnew" type="text"
+                                                                    class="autocomplete">
+                                                                <label for="nom_categorie_modifysouscatnew">Nouveau nom
+                                                                    categorie de sous
+                                                                    produit</label>
+                                                            </div>
+                                                            <div class="input-field col s4"><a
+                                                                    class="waves-effect waves-light orange darken-3 btn col s12">Modifier
+                                                                    une Catégorie de sous
+                                                                    produits</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <form class="col s12">
+                                                <div class="row">
+                                                    <div class="col s12">
+                                                        <div class="row">
+                                                            <div class="input-field col s7">
+                                                                <input id="nom_categorie_deletecat" type="text"
+                                                                    class="autocomplete">
+                                                                <label for="nom_categorie_deletecat">Categorie de
+                                                                    produit</label>
+                                                            </div>
+                                                            <div class="input-field col s5"><a
+                                                                    class="waves-effect waves-light red darken-4 btn col s12">Supprimer
+                                                                    une
+                                                                    catégorie de
+                                                                    produits</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <form class="col s12">
+                                                <div class="row">
+                                                    <div class="col s12">
+                                                        <div class="row">
+                                                            <div class="input-field col s7">
+                                                                <input id="nom_categorie_deletesouscat" type="text"
+                                                                    class="autocomplete">
+                                                                <label for="nom_categorie_deletesouscat">Categorie de
+                                                                    sous
+                                                                    produit</label>
+                                                            </div>
+                                                            <div class="input-field col s5"><a
+                                                                    class="waves-effect waves-light red darken-4 btn col s12">Supprimer
+                                                                    une
+                                                                    catégorie de sous produits</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                </li>
+                                <li>
+
+                                    <div class="collapsible-header" tabindex="0">Entrepôt<i class="material-icons">
+                                            keyboard_arrow_right </i></div>
+                                    <div class="collapsible-body">
+                                        <div class="row">
+                                            <form class="col s12">
+                                                <div class="row">
+                                                    <div class="input-field col s3">
+                                                        <input id="libelle_entrepôt" type="text" class="validate">
+                                                        <label for="libelle_entrepôt">Nom entrepôt</label>
+                                                    </div>
+                                                    <div class="input-field col s3">
+                                                        <input id="adresse_entrepôt" type="text" class="validate">
+                                                        <label for="adresse_entrepôt">Adresse entrepôt</label>
+                                                    </div>
+                                                    <div class="input-field col s3">
+                                                        <input id="city_entrepôt" type="text" class="validate">
+                                                        <label for="city_entrepôt">Ville entrepôt</label>
+                                                    </div>
+                                                    <div class="input-field col s3">
+                                                        <a class="waves-effect waves-light green darken-1 btn col s12">Ajouter
+                                                            un entrepôt</a>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="row">
+                                            <form class="col s12">
+                                                <div class="row">
+                                                    <div class="input-field col s2">
+                                                        <input id="libelle_entrepôt_modify" type="text"
+                                                            class="autocomplete">
+                                                        <label for="libelle_entrepôt_modify">Nom entrepôt à
+                                                            modifier</label>
+                                                    </div>
+                                                    <div class="input-field col s2">
+                                                        <input id="libelle_entrepôt_modifyNew" type="text"
+                                                            class="validate">
+                                                        <label for="libelle_entrepôt_modifyNew">Nouveau nom
+                                                            entrepôt</label>
+                                                    </div>
+                                                    <div class="input-field col s3">
+                                                        <input id="adresse_entrepôt_modify" type="text"
+                                                            class="validate">
+                                                        <label for="adresse_entrepôt_modify">Adresse entrepôt</label>
+                                                    </div>
+                                                    <div class="input-field col s2">
+                                                        <input id="city_entrepôt_modify" type="text" class="validate">
+                                                        <label for="city_entrepôt_modify">Ville entrepôt</label>
+                                                    </div>
+                                                    <div class="input-field col s3">
+                                                        <a class="waves-effect waves-light orange darken-1 btn col s12">Modifier
+                                                            un entrepôt</a>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="row">
+                                            <form class="col s12">
+                                                <div class="row">
+                                                    <div class="input-field col s9">
+                                                        <input id="libelle_entrepôt_delete" type="text"
+                                                            class="autocomplete">
+                                                        <label for="libelle_entrepôt_delete">Nom entrepôt à
+                                                            Supprimer</label>
+                                                    </div>
+                                                    <div class="input-field col s3">
+                                                        <a class="waves-effect waves-light red darken-4 btn col s12">Supprimer
+                                                            un
+                                                            Entrepôt</a>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+
+                                    <div class="collapsible-header" tabindex="0">Utilisateur <i class="material-icons">
+                                            keyboard_arrow_right </i></div>
+                                    <div class="collapsible-body">
+                                        <div class="row">
+                                            <form class="col s12">
+                                                <div class="row">
+                                                    <div class="input-field col s9">
+                                                        <input id="libelle_entrepôt_delete" type="text"
+                                                            class="autocomplete">
+                                                        <label for="libelle_entrepôt_delete">Nom utilisateur à
+                                                            suspendre</label>
+                                                    </div>
+                                                    <div class="input-field col s3">
+                                                        <a class="waves-effect waves-light red darken-4 btn col s12">Suspendre
+                                                            un
+                                                            utilisateur</a>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+            </div>
+        </center>
+    </main>
+
+
+
+
+
+</body>
+
+<footer class="page-footer teal" style="background-color: chocolate !important">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Company Bio</h5>
+                <p class="grey-text text-lighten-4">We are a team of college students working on
+                    this
+                    project like it's our full time job. Any amount would help support and continue
+                    development on this project and is greatly appreciated.</p>
+
+
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Settings</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">Link 1</a></li>
+                    <li><a class="white-text" href="#!">Link 2</a></li>
+                    <li><a class="white-text" href="#!">Link 3</a></li>
+                    <li><a class="white-text" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Connect</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">Link 1</a></li>
+                    <li><a class="white-text" href="#!">Link 2</a></li>
+                    <li><a class="white-text" href="#!">Link 3</a></li>
+                    <li><a class="white-text" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
+    </div>
+</footer>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+        $('.modal').modal();
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('input.autocomplete').autocomplete({
+            data: {
+                "Apple": null,
+                "Microsoft": null,
+                "Google": 'https://placehold.it/250x250'
+            },
+            limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
+            onAutocomplete: function (val) {
+                // Callback function when value is autcompleted.
+            },
+            minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
+        });
+    });
+</script>
+
+
+</html>
