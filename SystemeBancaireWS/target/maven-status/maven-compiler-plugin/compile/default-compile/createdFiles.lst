@@ -1,0 +1,7 @@
+bean\SystemeBancaireBean.class
+com\airhacks\ping\boundary\PingResource.class
+com\airhacks\JAXRSConfiguration.class
+servlet\index.class
+model\AllSystemeBancaire.class
+model\SystemeBancaire.class
+bean\SystemeBancaireWS.class

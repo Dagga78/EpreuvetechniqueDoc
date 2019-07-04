@@ -1,0 +1,9 @@
+bean\package-info.class
+bean\Verifpaiement.class
+bean\SystemeBancaire.class
+com\airhacks\ping\boundary\PingResource.class
+com\airhacks\JAXRSConfiguration.class
+bean\SystemeBancaireWS_Service.class
+bean\ObjectFactory.class
+bean\SystemeBancaireWS.class
+bean\VerifpaiementResponse.class
